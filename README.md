@@ -1,2 +1,4 @@
-# web-425
-TypeScript class repository
+# WEB 425 Angular with TypeScript
+## Contributors
+* Richard Krasso
+* William Watlington
