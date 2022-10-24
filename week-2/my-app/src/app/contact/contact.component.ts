@@ -1,3 +1,9 @@
+/*
+Title: contact.component.ts
+Author: William Watlington
+Date: 24 October 2022
+Description: Contact component
+*/
 import { Component, OnInit } from '@angular/core';
 
 @Component({
