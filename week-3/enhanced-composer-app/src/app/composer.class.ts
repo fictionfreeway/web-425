@@ -1,9 +1,9 @@
-/**
+/*
  * Title: composer.class.component.ts
  * Author: William Watlington
  * Date: 30 October 2022
  * Description: Composer class for composer app
- */
+*/
  import { IComposer } from './composer.interface';
 
 // composer class to be used to list composers
