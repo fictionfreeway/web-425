@@ -1,8 +1,8 @@
 /*
 Title: app.component.ts
 Author: William Watlington
-Date: 23 October 2022
-Description: App component
+Date: 3 November 2022
+Description: app component
 */
 
 import { Component } from '@angular/core';
@@ -13,5 +13,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title: string = "Exercise 3.3 - Passing Data to Routes, Part 2"
+  title = 'Exercise 4.2 - Inversion of Control and Dependency Injection';
 }
