@@ -1,3 +1,11 @@
+/*
+Title: sign-in.guard.ts
+Author: William Watlington
+Date: 17 December 2022
+Description: sign in guard for gpa app
+*/
+
+
 import { Injectable } from '@angular/core';
 import { CanActivate, ActivatedRouteSnapshot, RouterStateSnapshot, UrlTree } from '@angular/router';
 import { CookieService } from 'ngx-cookie-service';

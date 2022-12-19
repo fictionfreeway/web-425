@@ -1,3 +1,11 @@
+/*
+Title: home.component.ts
+Author: William Watlington
+Date: 17 December 2022
+Description: home component for gpa app
+*/
+
+
 import { Component, OnInit } from '@angular/core';
 import { ITranscript } from '../transcript.interface';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
@@ -7,6 +15,8 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
+
+
 export class HomeComponent implements OnInit {
 
   selectableGrades: Array<string> = ['A', 'A-', 'B+', 'B', 'B-', 'C+', 'C', 'C-', 'D+', 'D', 'D-', 'F'];
@@ -14,9 +24,7 @@ export class HomeComponent implements OnInit {
   gpaTotal: number = 0;;
   transcriptForm: FormGroup;
 
-  constructor(private fb: FormBuilder) {
-
-  }
+  constructor(private fb: FormBuilder) {}
 
   ngOnInit(): void {
     this.transcriptForm = this.fb.group({

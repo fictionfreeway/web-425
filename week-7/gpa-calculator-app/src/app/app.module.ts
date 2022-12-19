@@ -1,3 +1,11 @@
+/*
+Title: app.module.ts
+Author: William Watlington
+Date: 17 December 2022
+Description: main app module for gpa app
+*/
+
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 

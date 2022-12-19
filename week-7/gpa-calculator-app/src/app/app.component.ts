@@ -1,3 +1,11 @@
+/*
+Title: app.component.ts
+Author: William Watlington
+Date: 17 December 2022
+Description: main app component for gpa app
+*/
+
+
 import { Component } from '@angular/core';
 
 @Component({

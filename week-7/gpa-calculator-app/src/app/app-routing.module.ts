@@ -1,3 +1,11 @@
+/*
+Title: app-routing.module.ts
+Author: William Watlington
+Date: 17 December 2022
+Description: routing for gpa app
+*/
+
+
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { BaseLayoutComponent } from './base-layout/base-layout.component';

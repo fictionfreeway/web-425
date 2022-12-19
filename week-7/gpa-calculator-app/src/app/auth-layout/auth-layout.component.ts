@@ -1,3 +1,10 @@
+/*
+Title: auth-layout.component.ts
+Author: William Watlington
+Date: 17 December 2022
+Description: authorized layout component for gpa app
+*/
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({

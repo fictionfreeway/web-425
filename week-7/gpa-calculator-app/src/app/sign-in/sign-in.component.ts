@@ -1,3 +1,11 @@
+/*
+Title: sign-in.component.ts
+Author: William Watlington
+Date: 17 December 2022
+Description: sign in component for gpa app
+*/
+
+
 import { Component, OnInit } from '@angular/core';
 import { SignInService } from '../sign-in.service';
 import { Router } from '@angular/router';
@@ -9,8 +17,9 @@ import { CookieService } from 'ngx-cookie-service';
   templateUrl: './sign-in.component.html',
   styleUrls: ['./sign-in.component.css']
 })
-export class SignInComponent implements OnInit {
 
+
+export class SignInComponent implements OnInit {
   signinForm: FormGroup;
   errorMessage: string;
 
